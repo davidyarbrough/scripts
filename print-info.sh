@@ -7,6 +7,9 @@ echo
 echo "*CPU TYPE*"
 cat /proc/cpuinfo | grep "model name" -m 1
 echo 
+echo "*GRAPHICS CARDS*"
+lspci | grep -E "VGA|3D"
+echo
 echo "*TOTAL MEMORY (MB)*"
 free -m | grep "Mem" | awk '{print $2}'
 echo
