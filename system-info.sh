@@ -11,7 +11,7 @@ echo "*GRAPHICS CARDS*"
 lspci | grep -E "VGA|3D"
 echo
 echo "*TOTAL MEMORY (MB)*"
-free -m | grep "Mem" | awk '{print $2}'
+free --mega | grep "Mem" | awk '{print $2}'
 echo
-echo "*TOTAL DISK SPACE*"
-df -h |grep "/dev/" | awk '{print $2}'
+echo "*DISK USAGE*"
+df -h
