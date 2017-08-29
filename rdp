@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rdesktop -g 1778x1000
+exit 0

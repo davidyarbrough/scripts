@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo yum update -y && sudo yum update kernel -y && sudo yum autoremove
+exit 0

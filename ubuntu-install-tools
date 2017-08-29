@@ -1,0 +1,37 @@
+#!/bin/bash
+sudo apt-get update &&
+sudo apt-get install -y arandr &&
+sudo apt-get install -y chromium-browser &&
+sudo apt-get install -y conky &&
+sudo apt-get install -y curl &&
+sudo apt-get install -y dmenu &&
+sudo apt-get install -y dnsutils &&
+sudo apt-get install -y git &&
+sudo apt-get install -y gparted &&
+sudo apt-get install -y htop &&
+sudo apt-get install -y keepassx &&
+sudo apt-get install -y meld &&
+sudo apt-get install -y mousepad &&
+sudo apt-get install -y network-manager-openconnect &&
+sudo apt-get install -y network-manager-openconnect-gnome &&
+sudo apt-get install -y network-manager-openvpn &&
+sudo apt-get install -y network-manager-openvpn-gnome &&
+sudo apt-get install -y nitrogen &&
+sudo apt-get install -y ntp &&
+sudo apt-get install -y numlockx &&
+sudo apt-get install -y openbox-menu &&
+sudo apt-get install -y openssh-server &&
+sudo apt-get install -y pidgin &&
+sudo apt-get install -y postgresql &&
+sudo apt-get install -y rdesktop &&
+sudo apt-get install -y redshift &&
+sudo apt-get install -y shutter &&
+sudo apt-get install -y terminator &&
+sudo apt-get install -y tint2 &&
+sudo apt-get install -y unetbootin &&
+sudo apt-get install -y vim &&
+sudo apt-get install -y volti &&
+sudo apt-get install -y xdotool &&
+sudo apt-get install -y xrdp &&
+sudo apt-get install -y xscreensaver
+
